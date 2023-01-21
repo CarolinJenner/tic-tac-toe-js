@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tic tac toe</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/normalize.css@8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="flex-c-c-c mrg-bl-2">
+      <header>
+        <h1 class="mrg-bl-0 clr-white01 fnt-w-900 fnts-4 ol-fill-blue01">
+          tic tac toe
+        </h1>
+      </header>
+      <p class="clr-green02">
+        <span id="view-player" class="fnt-f-righteous"></span> has the turn.
+      </p>
+      <section class="flex-r-c">
+        <button
+          id="player-x"
+          class="pdg-bl-05 pdg-il-08 bgc-gr01 bdr-1s-gr01 fnt-f-righteous fnts-1-5 clr-white01"
+        >
+          X
+        </button>
+        <button
+          id="player-o"
+          class="pdg-bl-05 pdg-il-08 bgc-gr02 bdr-1s-gr02 fnt-f-righteous fnts-1-5 clr-white01"
+        >
+          O
+        </button>
+      </section>
+      <section
+        id="board"
+        class="grid fnt-f-righteous fnts-2 clr-white01 mo-pointer"
+      >
+        <div id="a1" class="a1"></div>
+        <div id="a2" class="a2"></div>
+        <div id="a3" class="a3"></div>
+        <div id="b1" class="b1"></div>
+        <div id="b2" class="b2"></div>
+        <div id="b3" class="b3"></div>
+        <div id="c1" class="c1"></div>
+        <div id="c2" class="c2"></div>
+        <div id="c3" class="c3"></div>
+      </section>
+
+      <button
+        id="restart"
+        class="pdg-bl-05 pdg-il-08 bgc-bl01 pdg-b-075 fnt-w-400 fnts-1-5 clr-white01 mo-pointer"
+      >
+        restart game
+      </button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
