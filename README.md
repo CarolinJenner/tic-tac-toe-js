@@ -17,6 +17,6 @@ Verwenden Sie die Maus, um auf das gewünschte Feld zu klicken und Ihr Symbol zu
 
 Gewinnbedingungen
 
-Das Spiel endet, wenn ein Spieler eine horizontale, vertikale oder diagonale Linie von drei ihrer Symbole bildet. Das Spiel erkennt auch unentschiedene Spiele.
+Das Spiel endet, wenn ein Spieler eine horizontale, vertikale oder diagonale Linie von drei ihrer Symbole bildet.
 
 Enjoy!
